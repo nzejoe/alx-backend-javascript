@@ -1,0 +1,22 @@
+{
+  "name": "ES6 Promises",
+  "version": "1.0.0",
+  "description": "0x01. ES6 Promises",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint",
+    "check-lint": "lint [0-9]*.js",
+    "dev": "npx babel-node",
+    "test": "jest",
+    "full-test": "./node_modules/.bin/eslint [0-9]*.js && jest"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.12",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.22.0",
+    "jest": "^26.6.3"
+  }
+}
+
